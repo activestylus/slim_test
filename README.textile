@@ -9,7 +9,7 @@ Note: This app is running on Mysql
 
 h2. The Bug
 
-# Visit http://localhost:3000/parents/new:"http://localhost:3000/parents/new"
+# Visit http://localhost:3000/parents/new
 # Fill in parent name and child name
 # Press "Create Parent"
 # Press "Edit" link on the show page
@@ -25,4 +25,4 @@ h2. Try it with Haml
 
 As you can see haml applies the correct behavior
 
-Interesting sidenote: Both template engines appear to generate indentical html but the behavior is quite different as youc an see.
+Interesting sidenote: Both template engines appear to generate identical html but the behavior is quite different as youc an see.
