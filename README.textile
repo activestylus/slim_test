@@ -1,0 +1,28 @@
+h2. Setup
+
+Note: This app is running on Mysql
+
+# bundle install
+# rake db:create
+# rake db:migrate
+# rails server
+
+h2. The Bug
+
+# Visit http://localhost:3000/parents/new:"http://localhost:3000/parents/new"
+# Fill in parent name and child name
+# Press "Create Parent"
+# Press "Edit" link on the show page
+# Change name of child and press "Update Parent"
+
+The parent now has two children instead of updating the name of the first one.
+
+h2. Try it with Haml
+
+# Open Gemfile and comment out: gem "slim"
+# Uncomment the haml gem lines and run "bundle install" again
+# Repeat the above steps
+
+As you can see haml applies the correct behavior
+
+Interesting sidenote: Both template engines appear to generate indentical html but the behavior is quite different as youc an see.
