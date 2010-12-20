@@ -1,0 +1,28 @@
+defaults: &defaults
+  adapter: mysql
+
+development:
+  database: slim_development
+  <<: *defaults
+
+  # Add more repositories
+  # repositories:
+  #   repo1:
+  #     adapter:  postgres
+  #     database: sample_development
+  #     username: the_user
+  #     password: secrets
+  #     host:     localhost
+  #   repo2:
+  #     ...
+# 
+# test: &test
+#   database: slim_test
+#   <<: *defaults
+# 
+# production:
+#   database: slim_production
+#   <<: *defaults
+# 
+# cucumber:
+#   <<: *test
