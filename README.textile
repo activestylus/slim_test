@@ -23,6 +23,6 @@ h2. Try it with Haml
 # Uncomment the haml gem lines and run "bundle install" again
 # Repeat the above steps
 
-As you can see haml applies the correct behavior
+As you can see haml applies the correct behavior. The child is updated and not duplicated.
 
 Interesting sidenote: Both template engines appear to generate identical html but the behavior is quite different as youc an see.
