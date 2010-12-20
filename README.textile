@@ -15,7 +15,7 @@ h2. The Bug
 # Press "Edit" link on the show page
 # Change name of child and press "Update Parent"
 
-The parent now has two children instead of updating the name of the first one.
+The parent now has two children instead of just updating the name of the first one.
 
 h2. Try it with Haml
 
@@ -25,4 +25,4 @@ h2. Try it with Haml
 
 As you can see haml applies the correct behavior. The child is updated and not duplicated.
 
-Interesting sidenote: Both template engines appear to generate identical html but the behavior is quite different as youc an see.
+Interesting sidenote: Both template engines appear to generate identical html but the behavior is quite different as you can see.
